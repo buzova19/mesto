@@ -1,0 +1,8 @@
+.element__photo {
+    display: grid;
+    margin: 0;
+    padding:0;
+    grid-gap: 18px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill,minmax(282px,1fr));
+}
