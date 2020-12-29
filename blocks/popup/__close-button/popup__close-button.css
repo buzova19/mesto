@@ -21,4 +21,8 @@
   .popup__close-button:focus {
     opacity: 0.6;
   }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  margin: 146.76 376.72 516.72 846.72;
+}
   

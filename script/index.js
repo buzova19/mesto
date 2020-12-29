@@ -1,30 +1,35 @@
-let openButton = document.querySelector ('.popup_open')
-let overlay = document.querySelector ('.overlay')
-let closeButton = overlay.querySelector ('.popup__close-button')
-let saveButton = overlay.querySelector ('.form__save-button')
+const openButton = document.querySelector('.popup_open');
+const overlay = document.querySelector('.overlay');
+const closeButton = overlay.querySelector('.popup__close-button');
+const userName = document.querySelector('.profile__title-text');
+const userAbout = document.querySelector('.profile__subtitle-text');
+const form = document.forms.edituser;
+const inputName = form.elements.name;
+const inputAbout = form.elements.about;
 
+function closePopup() {
+  overlay.classList.remove('overlay_active');
+}
+
+function editUserInfo() {
+  userName.textContent = inputName.value;
+  userAbout.textContent = inputAbout.value;
+}
 
 openButton.addEventListener('click', () => {
-    
-    overlay.classList.toggle('overlay_active')
-    
-})
+  overlay.classList.add('overlay_active');
+});
 
-closeButton.addEventListener('click', () => {
-    overlay.classList.toggle('overlay_active')
-    
-})
+closeButton.addEventListener('click', closePopup);
 
-saveButton.addEventListener('click', () => {
-  overlay.classList.toggle('form__save-button')
-  
-})
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  editUserInfo();
+  closePopup();
+});
 
 overlay.addEventListener('click', (event) => {
-    if (event.target === event.currentTarget) {
-    overlay.classList.toggle('overlay_active')
-    }
-    })
-
-
- 
+  if (event.target === event.currentTarget) {
+    closePopup();
+  }
+});
