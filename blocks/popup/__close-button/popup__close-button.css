@@ -1,8 +1,8 @@
 .popup__close-button {
   position: absolute;
-  top: 150px;
+  top: 155px;
   right: 400px;
-  left: 950px;
+  left: 1030px;
   width: 40.7px;
   height: 40.7px;
   background-image: url(../../../images/edit-form-close-button.svg);
