@@ -1,13 +1,13 @@
 @import url(./__text/footer__text.css);
 
 .footer {
-	width: 68.75%;
-	margin: 46px auto 0;
-	padding-bottom: 30px;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	max-width: 1200px;
-	min-width: 300px;
+    width: 68.75%;
+    margin: 46px auto 0;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 300px;
 }

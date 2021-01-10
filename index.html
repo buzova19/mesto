@@ -22,43 +22,77 @@
       <p class="profile__subtitle-text">Исследователь океана</p>
     </div>
     <button type="button" aria-label="Добавить" class="profile__add-button"></button>
-    </section>
+  </section>
 
   <section class="elements">
     <ul class="element__photo">
-        <li class="element__card">
-          <img class="element__image" alt="карточка" src="./images/card1.jpg">
-          <div class="element__description">
-            <h2 class="element__title">Ты Кто ТАкой?</h2>
-            <div class="element__like-group">
-              <button class="element__like-heart element__like-heart-active" title="нравится"></button>
-              <span class="element__like-num"></span>
-            </div>
+      <li class="element__card">
+        <img class="element__image" alt="карточка" src="./images/card1.jpg">
+        <div class="element__description">
+          <h2 class="element__title">Карачаевск</h2>
+          <div class="element__like-group">
+            <button class="element__like-heart element__like-heart-active" title="нравится"></button>
+            <span class="element__like-num"></span>
           </div>
-        </li>
-        <li class="card">
-          <img class="element__image" alt="карточка" src="./images/card2.jpg">
-          <div class="element__description">
-            <h2 class="element__title">Ты Кто ТАкой?</h2>
-            <div class="element__like-group">
-              <button class="element__like-heart element__like-heart-active" title="нравится"></button>
-              <span class="element__like-num"></span>
-            </div>
+        </div>
+      </li>
+      <li class="card">
+        <img class="element__image" alt="карточка" src="./images/card2.jpg">
+        <div class="element__description">
+          <h2 class="element__title">Гора Эльбрус</h2>
+          <div class="element__like-group">
+            <button class="element__like-heart element__like-heart-active" title="нравится"></button>
+            <span class="element__like-num"></span>
           </div>
-        </li>
-        <li class="card">
-          <img class="element__image" alt="карточка" src="./images/card3.jpg">
-          <div class="element__description">
-            <h2 class="element__title">Ты Кто ТАкой?</h2>
-            <div class="element__like-group">
-              <button class="element__like-heart element__like-heart-active" title="нравится"></button>
-              <span class="element__like-num"></span>
-            </div>
+        </div>
+      </li>
+      <li class="card">
+        <img class="element__image" alt="карточка" src="./images/card3.jpg">
+        <div class="element__description">
+          <h2 class="element__title">Домбай</h2>
+          <div class="element__like-group">
+            <button class="element__like-heart element__like-heart-active" title="нравится"></button>
+            <span class="element__like-num"></span>
+          </div>
 
+        </div>
+      </li>
+
+      <li class="card">
+        <img class="element__image" alt="карточка" src="./images/card2.jpg">
+        <div class="element__description">
+          <h2 class="element__title">Гора Эльбрус</h2>
+          <div class="element__like-group">
+            <button class="element__like-heart element__like-heart-active" title="нравится"></button>
+            <span class="element__like-num"></span>
           </div>
-        </li>
-        
-        
+        </div>
+      </li>
+      <li class="card">
+        <img class="element__image" alt="карточка" src="./images/card3.jpg">
+        <div class="element__description">
+          <h2 class="element__title">Домбай</h2>
+          <div class="element__like-group">
+            <button class="element__like-heart element__like-heart-active" title="нравится"></button>
+            <span class="element__like-num"></span>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="card">
+        <img class="element__image" alt="карточка" src="./images/card1.jpg">
+        <div class="element__description">
+          <h2 class="element__title">Карачаево-Черкесия</h2>
+          <div class="element__like-group">
+            <button class="element__like-heart element__like-heart-active" title="нравится"></button>
+            <span class="element__like-num"></span>
+          </div>
+
+        </div>
+      </li>
+
+
 
     </ul>
 
@@ -71,27 +105,29 @@
   <footer class="footer">
     <p class="footer__text">&copy;2020 Mesto Russia</p>
   </footer>
- 
-   
+
+
   <section class="overlay">
- 
+
     <form class="popup" name="edituser">
       <h3 class="overlay_title"> Редактировать профиль</h3>
       <fieldset class="form__fieldset">
-        <input class="form__input" type="text" id="profile__title-text" aria-label="имя" placeholder="Имя" name="name" required minlength="2" maxlength="40">
-        <input class="form__input" type="text" id="profile-caption" aria-label="подпись" placeholder="Подпись" name="about" required minlength="2" maxlength="200">
-        <button class="form__save-button popup__save-button" type="submit">Сохранить</button>
+        <input class="form__input" type="text" id="profile__title-text" aria-label="Имя" placeholder="Жак-Ив Кусто"
+          name="name" required minlength="2" maxlength="40">
+        <input class="form__input" type="text" id="profile-caption" aria-label="Подпись"
+          placeholder="Исследователь океана" name="about" required minlength="2" maxlength="200">
+        <button class="form__save-button" type="submit">Сохранить</button>
       </fieldset>
       <button type="reset" class="popup__close-button" aria-label="закрыть форму"></button>
       <span class="popup_close"></span>
-  </form>
+    </form>
 
 
   </section>
 
-    
-    <script src="script/index.js"></script>
-    
+
+  <script src="script/index.js"></script>
+
 </body>
 
 </html>

@@ -6,7 +6,6 @@
 @import url(./__save-button/form__save-button.css);
 @import url(./__save-button/__save-button_inactive/form__save-button_inactive.css);
 
-
 .form {
     padding: 34px 36px 30px 36px;
     width: 430px;
@@ -15,8 +14,7 @@
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
-

@@ -1,10 +1,23 @@
 .overlay_title {
-    width: 358px;
-    margin: 0 0 24px 0;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 1.2;
-    color: #000000;
+  width: 358px;
+  margin: 34px 64px 24px 36px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .overlay_title {
+      margin: 25px 18px 24px 18px;
+      width: 238px;
+      height: 14px;
+      left: 41px;
+      top: 245px;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 22px;
   }
+}

@@ -3,6 +3,7 @@ const overlay = document.querySelector('.overlay');
 const closeButton = overlay.querySelector('.popup__close-button');
 const userName = document.querySelector('.profile__title-text');
 const userAbout = document.querySelector('.profile__subtitle-text');
+
 const form = document.forms.edituser;
 const inputName = form.elements.name;
 const inputAbout = form.elements.about;

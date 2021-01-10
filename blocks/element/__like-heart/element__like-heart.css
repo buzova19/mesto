@@ -8,10 +8,10 @@
   background-image: url(../../../images/like-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
-  transition: opacity .3s ease;
+  background-color: #ffffff;
+  transition: opacity 0.3s ease;
 }
 
 .element__like-heart:hover {
-opacity: 0.6;
+  opacity: 0.6;
 }
